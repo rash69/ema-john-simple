@@ -1,0 +1,13 @@
+.not_found{
+    text-align: center;
+    
+}
+
+.msg{
+    color: darkgoldenrod;
+}
+
+.error{
+    
+    font-size: 100px;
+}
