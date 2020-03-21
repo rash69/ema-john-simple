@@ -1,8 +1,13 @@
 import React from 'react';
+// import { useAuth } from '../Login/useAuth';
+
 
 
 const Cart = (props) => {
     const cart = props.cart;
+    // const auth = useAuth();
+    // console.log(auth.user);
+
     // console.log(cart);
     // const total = cart.reduce((total, product) => total + product.price, 0);
     let total = 0;
