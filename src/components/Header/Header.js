@@ -1,8 +1,8 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React from 'react';
 import logo from '../../images/logo.png';
 import './Header.css';
 import { useAuth } from '../Login/useAuth';
-import { Link } from 'react-router-dom';
+
 
 
 
@@ -31,7 +31,7 @@ const Header = () => {
             <nav>
                 <a href="/shop">Shop</a>
                 <a href="/review">Order review</a>
-                <a href="/inventory">Manage Inventory</a>
+                <a href="/inventory">Inventory</a>
                 {
                     auth.user && <span style={{color: 'white'}}>{auth.user.name}
 </span> 
